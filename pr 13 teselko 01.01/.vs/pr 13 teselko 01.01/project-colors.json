@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f3481a13-6a90-4395-80e1-d73d89d67d14": {
+      "ProjectGuid": "f3481a13-6a90-4395-80e1-d73d89d67d14",
+      "DisplayName": "pr 13 teselko 01.01",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "6cd7bacf-851b-4241-89ff-a6a922b42330": {
+      "ProjectGuid": "6cd7bacf-851b-4241-89ff-a6a922b42330",
+      "DisplayName": "WpfApp1",
+      "ColorIndex": 1
+    },
+    "96fa007a-619b-414e-9e67-1ae22d66bdc8": {
+      "ProjectGuid": "96fa007a-619b-414e-9e67-1ae22d66bdc8",
+      "DisplayName": "LibMas",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

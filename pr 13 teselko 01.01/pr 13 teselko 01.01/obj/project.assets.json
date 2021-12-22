@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "LibMas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LibMas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibMas.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "LibMas/1.0.0": {
+      "type": "project",
+      "path": "../WpfLibrary1/LibMas.csproj",
+      "msbuildProject": "../WpfLibrary1/LibMas.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "LibMas >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Vladimir\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\c#\\teselko\\pr 13 teselko 01.01\\pr 13 teselko 01.01\\pr 13 teselko 01.01.csproj",
+      "projectName": "pr 13 teselko 01.01",
+      "projectPath": "D:\\c#\\teselko\\pr 13 teselko 01.01\\pr 13 teselko 01.01\\pr 13 teselko 01.01.csproj",
+      "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
+      "outputPath": "D:\\c#\\teselko\\pr 13 teselko 01.01\\pr 13 teselko 01.01\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\c#\\teselko\\pr 13 teselko 01.01\\WpfLibrary1\\LibMas.csproj": {
+              "projectPath": "D:\\c#\\teselko\\pr 13 teselko 01.01\\WpfLibrary1\\LibMas.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
